@@ -14,7 +14,7 @@ or
 
 ```https://nodejs.org/en/download```
 
-<h1>Docsaurus Initial Commands<h1>
+Docsaurus Initial Commands
 
 <p>Init and installing Docsaurus</p>
 
