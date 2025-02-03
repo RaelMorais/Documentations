@@ -1,50 +1,52 @@
 <h1>Essentials</h1>
 
+```git status``` Use to check init status
 
-````git init````
+````git init```` Use init for initialize repository
 
-<p>Use init for initialize repository</p>
+````git add .```` For add files to git, uses git add . for all or git add <filename></p>
 
-````git add .````
+```git commit -m "your menssage here"``` Add git commit to make changes
 
-<p>For add files to git, uses git add . for all or git add <filename></p>
+```git rm -r <file_name>``` Remove file or directory
 
-```git commit -m "your menssage here"```
+```gi pull``` Update local repository to the newest commit
 
-<p>Add git commit to make changes</p>
+```git pull origin <branch_name>``` Pull changes from remote repository
 
-```git log```
-
-<p>To logs in git</p>
-
+```git clone <link_git>``` To clone repository
 
 
+<h1>Inspection</h1>
 
-<h1>Errors</h1>
+```git diff``` Command shows the differences between files in your repository.
 
-```git diff```
+```git log``` Command shows the commit history of your repository. 
 
-```git log```
+```git revert <hash_commit>``` Command is used to create a new commit that undoes the changes introduced by a specific commit. 
 
-```git revert <hash_commit>```
+```git reset --hard <hash_commit>``` Command moves the current branch pointer to a specific commit and erases any changes in your working directory and staging area.
 
-```git reset --hard <hash_commit>```
-
-```git commit --amend -m "..."```
+```git commit --amend -m "..."``` Edits the most recent commit. 
 
 
 <h1>Connect with Github</h1>
 <p>To connect your github account with Git</P>
 
-```git config --global user.name "name"```
+```git config --global user.name "name"``` Config your local name in commits
 
-```git config --global user.email "mail@mail.com"```
+```git config --global user.email "mail@mail.com"```  Config your local email in commits
 
-```git remote add origin <git_link_repository>```
+:exclamation: Git typically requires the global username to be configured to ensure that your contributions are correctly attributed to you in remote repositories :exclamation:
 
-```git remote -v```
 
-<p>Git Push's list</p>
+```git remote add origin <git_link_repository>``` Add origin for remote repository
+
+```git remote -v``` Check your remote repository
+
+```git push --set-upstream origin <branch_name>``` or ```git push -u origin <branch name>```
+
+<p>:sparkles:Git Push's list</p>
 
 1. ````git push origin <branch name>```` -> Push a branch to your remote repository (don't remenber)
 
@@ -54,25 +56,39 @@
 
 4. ````git push origin --delete <branch_name>```` -> Delete branch for remote 
 
-5. ````git branch -d <branch_name>```` Delete local branch
+5. ````git branch -d <branch_name>````-> Delete local branch
 
 To force delete branch locally, uses ```git branch -D <branch_name>```
-`````git remote set-url origin <nova_url>`````
-<p>To set new remote origin</P>
 
-<h1>Inspections</h1>
+`````git remote set-url origin <nova_url>````` To set new remote origin
 
-```git log```
-<p>View changes</p>
+<h1>Branch's</h1>
 
-```git log --summary```
-<p>View changes (detailed)</p>
+```git branch``` List all branchs
 
-```git log --oneline```
-<P>View changes (briefly)</p>
+```git branch -a``` List all branchs (local and remote)
 
-```git log --graph```
-<P>View Timeline changes</p>
+```git branch <name_new_branch>``` Create a new branch
 
-```git show <hash_commit>```
-<p>Show information about a specific commit</P>
+```git switch <name_branch_switch>``` To switch branch
+
+```git switch -c <nome_branch>``` To create and switch for new branch
+
+<h1>To Merge</h1>
+
+To merge two branches, use ````git status```` to check the current branch, switch to the branch to merge using ````git switch branch_name````, use ```git branch_two```.
+Or use  ```git merge branch_main branch_two```
+
+
+
+<h1>Logs</h1>
+
+```git log``` View changes
+
+```git log --summary``` View changes (detailed)
+
+```git log --oneline``` View changes (briefly)
+
+```git log --graph``` View Timeline changes
+
+```git show <hash_commit>``` Show information about a specific commit
