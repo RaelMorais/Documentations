@@ -92,3 +92,12 @@ Or use  ```git merge branch_main branch_two```
 ```git log --graph``` View Timeline changes
 
 ```git show <hash_commit>``` Show information about a specific commit
+
+<h1>:sparkles:Bonus</h1>
+<p>Github CLI</p>
+
+To install, open Powershell and type ```winget install Github.cli``` or visit <a href="https://cli.github.com/">Github CLI
+
+Use ```gh auth login``` to autentication and select https login
+
+Before, use ```gh repo create "name_repository" --public (--private)``` to create repository in CLI. 
