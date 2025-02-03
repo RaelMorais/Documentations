@@ -36,8 +36,29 @@
 <h1>Connect with Github</h1>
 <p>To connect your github account with Git</P>
 
-<h1></h1>
+```git config --global user.name "name"```
 
+```git config --global user.email "mail@mail.com"```
+
+```git remote add origin <git_link_repository>```
+
+```git remote -v```
+
+<p>Git Push's list</p>
+
+1. >>>git push origin <branch name> -> Push a branch to your remote repository (don't remenber)
+
+2. >>>git push -u origin <branch name> -> Push changes to remote repository (and remember the branch)
+
+3. >>>git push -> Push changes to remote (only for the remembered branch)
+
+4. >>>git push origin --delete <branch_name> -> Delete branch for remote 
+
+5. >>>git branch -d <branch_name> -> Delete local branch
+
+To force delete branch locally, uses ```git branch -D <branch_name>```
+`````git remote set-url origin <nova_url>`````
+<p>To set new remote origin</P>
 
 <h1>Inspections</h1>
 ```git log```
