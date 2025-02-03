@@ -46,15 +46,15 @@
 
 <p>Git Push's list</p>
 
-1. >>>git push origin <branch name> -> Push a branch to your remote repository (don't remenber)
+1. ````git push origin <branch name>```` -> Push a branch to your remote repository (don't remenber)
 
-2. >>>git push -u origin <branch name> -> Push changes to remote repository (and remember the branch)
+2. ````git push -u origin <branch name>```` -> Push changes to remote repository (and remember the branch)
 
-3. >>>git push -> Push changes to remote (only for the remembered branch)
+3. ````git push```` -> Push changes to remote (only for the remembered branch)
 
-4. >>>git push origin --delete <branch_name> -> Delete branch for remote 
+4. ````git push origin --delete <branch_name>```` -> Delete branch for remote 
 
-5. >>>git branch -d <branch_name> -> Delete local branch
+5. ````git branch -d <branch_name>```` Delete local branch
 
 To force delete branch locally, uses ```git branch -D <branch_name>```
 `````git remote set-url origin <nova_url>`````
