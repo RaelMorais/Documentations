@@ -1,7 +1,7 @@
 <h1>Essentials</h1>
 
 
-`````git init````
+````git init````
 
 <p>Use init for initialize repository</p>
 
@@ -40,6 +40,7 @@
 
 
 <h1>Inspections</h1>
+
 ```git log```
 <p>View changes</p>
 
