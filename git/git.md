@@ -1,7 +1,7 @@
 <h1>Essentials</h1>
 
 
-`````git init````
+````git init````
 
 <p>Use init for initialize repository</p>
 
@@ -61,6 +61,7 @@ To force delete branch locally, uses ```git branch -D <branch_name>```
 <p>To set new remote origin</P>
 
 <h1>Inspections</h1>
+
 ```git log```
 <p>View changes</p>
 
