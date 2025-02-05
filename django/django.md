@@ -44,6 +44,7 @@ def home(request):
 
 ````
 then, got to ```urls.py``` in directory
+
 `````bash
 from django.contrib import admin
 from django.urls import path
@@ -53,5 +54,35 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', views.home),
 ]
+``````
+
+<h1>Extra</h1>
+
+How to activate executions Scripts in Windows for activate venv. 
+
 ```
+>>>Set-ExecutionPolicy
+````
+```
+>>>RemoteSigned
+```
+or 
+```
+>>>Get-ExecutionPolicy <select_preference>
+```
+
+<p>Preferences</p>
+
+```Restricted:```Does not allow loading or running PowerShell configuration files or scripts.
+
+```AllSigned:``` Only allows scripts signed by a trusted publisher, even if they were written locally.
+
+```RemoteSigned:``` Allows local scripts to run, but requires scripts downloaded from the internet to be signed.
+
+```Unrestricted:``` Runs all scripts, with a possible prompt for unsigned scripts.
+
+```Bypass:``` No restrictions on script execution.
+
+```Undefined:``` Removes the current execution policy unless set by a group policy.
+
 💻✨
