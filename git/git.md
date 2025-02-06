@@ -79,7 +79,7 @@ To force delete branch locally, uses ```git branch -D <branch_name>```
 To merge two branches, use ````git status```` to check the current branch, switch to the branch to merge using ````git switch branch_name````, use ```git branch_two```.
 Or use  ```git merge branch_main branch_two```
 
-
+<p>Daily commit</p>
 
 <h1>Logs</h1>
 
